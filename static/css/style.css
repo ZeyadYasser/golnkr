@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #1656a8;
+    background-image: linear-gradient(300deg, #6cbbb6 0%, #26a7b6 51%, #2b9bc4 75%);
+    font-family: 'Arial', sans-serif;
+  }
+  .container h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px
+  }
+  .nice-wrap {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .nice-label {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 16px;
+    color: #252525;
+    transition: all 0.25s ease;
+  }
+  .nice-label.focus {
+    top: -25px;
+    left: 5px;
+    font-size: 14px;
+    color: #252525;
+  }
+  .nice-textbox {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 50px;
+    padding: 15px;
+    margin:0;
+    border: none;
+    border-radius: 0px;
+    font-size: 16px;
+    color: #252525;
+    outline: none;
+  }
+  
+  .nice-btn {
+    display: inline-block;
+    width: 10%;
+    height: 50px;
+    border: 0;
+    background: rgb(3, 3, 3);
+    box-shadow: none;
+    border-radius: 0px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .container img {
+    position: absolute;
+    bottom: 0; /* adjust to suit requirements */
+    left: 60%;
+    height: 15%;
+}
